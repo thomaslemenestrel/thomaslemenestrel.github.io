@@ -6133,7 +6133,7 @@
 						return(0, i.Z)(n, [{
 							key: "componentDidMount",
 							value: function() {
-								document.title = [h.OT.u2, h.OT.PS].join(" | ");
+								document.title = [h.OT.u2, h.OT.PS].join(" | ")
 							}
 						}, {
 							key: "render",
