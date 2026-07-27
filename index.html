@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="theme-color" content="#3273DC"/>
+    <meta name="author" content="Thomas Le Menestrel"/>
     <link rel="canonical" href="https://thomaslemenestrel.com"/>
     <link rel="manifest" href="/manifest.json"/>
-    
+
     <title>Thomas Le Menestrel | Quantitative Researcher</title>
     <meta name="description" content="I am a Quantitative Researcher at QRT working on LLM research for systematic trading and hold an MS in Computational and Mathematical Engineering from Stanford University." />
 
@@ -15,130 +16,268 @@
     <link rel="icon" type="image/x-icon" href="https://thomaslemenestrel.com/favicon.ico">
     <link rel="icon" type="image/png" sizes="32x32" href="https://thomaslemenestrel.com/images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="https://thomaslemenestrel.com/images/favicon/favicon-16x16.png">
-    
-    <!-- Meta favicon declaration -->
-    <meta property="og:image" content="https://thomaslemenestrel.com/images/favicon/favicon-32x32.png">
 
     <!-- Structured Data for Google -->
     <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Thomas Le Menestrel",
-    "url": "https://thomaslemenestrel.com",
-    "image": "https://thomaslemenestrel.com/images/pfp.jpg",
-    "description": "Thomas Le Menestrel is a French-American Quantitative Researcher specializing in Natural Language Processing and Machine Learning. He is affiliated with Qube Research & Technologies and an alumnus of Stanford University.",
-    "jobTitle": "Quantitative Researcher",
-    "nationality": { "@type": "Country", "name": "United States" },
-    "knowsLanguage": ["English", "French"],
-    "identifier": {
-      "@type": "PropertyValue",
-      "propertyID": "ORCID",
-      "value": "0009-0005-5901-6407"
-    },
-    "worksFor": {
-      "@type": "Organization",
-      "name": "Qube Research & Technologies"
-    },
-    "alumniOf": {
-      "@type": "CollegeOrUniversity",
-      "name": "Stanford University",
-      "url": "https://www.stanford.edu"
-    },
-    "sameAs": [
-      "https://scholar.google.com/citations?user=UBbopPcAAAAJ&hl=en",
-      "https://tlemenestrel.medium.com",
-      "https://huggingface.co/tlemenestrel",
-      "https://www.researchgate.net/profile/Thomas-Le-Menestrel",
-      "https://github.com/tlemenestrel",
-      "https://www.linkedin.com/in/thomaslemenestrel",
-      "https://orcid.org/0009-0005-5901-6407",
-      "https://www.crunchbase.com/person/thomas-le-menestrel",
-      "https://loop.frontiersin.org/people/3151360/overview",
-      "https://www.wikidata.org/wiki/Q135747997",
-      "https://wikialpha.co/wiki/Thomas_Le_Menestrel",
-      "https://en.everybodywiki.com/Thomas_Le_Menestrel"
-    ],
-    "hasPart": [
-      {
-        "@type": "Dataset",
-        "name": "Smiles2Dock: an open large-scale multi-task dataset for ML-based molecular docking",
-        "description": "Smiles2Dock is a dataset mapping chemical SMILES to docking scores across multiple proteins, intended for ML research in molecular docking.",
-        "url": "https://huggingface.co/datasets/tlemenestrel/Smiles2Dock",
-        "author": [
-          { "@type": "Person", "name": "Thomas Le Menestrel" },
-          { "@type": "Person", "name": "Manuel Rivas" }
-        ],
-        "datePublished": "2024-06-10"
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://thomaslemenestrel.com/#person",
+      "name": "Thomas Le Menestrel",
+      "givenName": "Thomas",
+      "familyName": "Le Menestrel",
+      "alternateName": [
+        "Le Menestrel, Thomas",
+        "Menestrel, Thomas Le",
+        "T. Le Menestrel"
+      ],
+      "url": "https://thomaslemenestrel.com",
+      "mainEntityOfPage": { "@id": "https://thomaslemenestrel.com/#webpage" },
+      "image": "https://thomaslemenestrel.com/images/pfp.jpg",
+      "description": "Thomas Le Menestrel is a Quantitative Researcher specializing in Natural Language Processing and Machine Learning. He is affiliated with Qube Research & Technologies and an alumnus of Stanford University and University College London.",
+      "jobTitle": "Quantitative Researcher",
+      "nationality": [
+        { "@type": "Country", "name": "France" },
+        { "@type": "Country", "name": "United Kingdom" },
+        { "@type": "Country", "name": "United States" }
+      ],
+      "knowsLanguage": ["English", "French"],
+      "knowsAbout": [
+        "Large Language Models",
+        "Natural Language Processing",
+        "Machine Learning",
+        "Statistical Learning",
+        "Quantitative Finance",
+        "Computational Biology"
+      ],
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ORCID",
+          "value": "https://orcid.org/0009-0005-5901-6407"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Wikidata",
+          "value": "https://www.wikidata.org/wiki/Q135747997"
+        }
+      ],
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Qube Research & Technologies",
+        "url": "https://www.qube-rt.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "London",
+          "addressCountry": "GB"
+        }
       },
-      {
-        "@type": "ScholarlyArticle",
-        "name": "Using Pre-training and Interaction Modeling for ancestry-specific disease prediction in UK Biobank",
-        "author": [
-          { "@type": "Person", "name": "Thomas Le Menestrel" },
-          { "@type": "Person", "name": "Erin Craig" },
-          { "@type": "Person", "name": "Robert Tibshirani" },
-          { "@type": "Person", "name": "Trevor Hastie" },
-          { "@type": "Person", "name": "Manuel Rivas" }
-        ],
-        "datePublished": "2024-04-25",
-        "url": "https://arxiv.org/abs/2404.17626"
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Stanford University School of Medicine",
+        "url": "https://med.stanford.edu"
       },
-      {
-        "@type": "ScholarlyArticle",
-        "name": "Multivariate Predictors of Long-Term Outcome From Ventricular Tachycardia Ablation in a Large Registry",
-        "author": [
-          { "@type": "Person", "name": "Jatin Goyal" },
-          { "@type": "Person", "name": "Brototo Deb" },
-          { "@type": "Person", "name": "Thomas Le Menestrel" },
-          { "@type": "Person", "name": "Hui Ju Chang" },
-          { "@type": "Person", "name": "Fleur V Tjong" },
-          { "@type": "Person", "name": "Albert J Rogers" },
-          { "@type": "Person", "name": "Zahra Azizi" },
-          { "@type": "Person", "name": "Samuel Ruiperez-Campillo" },
-          { "@type": "Person", "name": "Ruibin Feng" },
-          { "@type": "Person", "name": "Prasanth Ganesan" }
-        ],
-        "datePublished": "2022-11-01",
+      "alumniOf": [
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "Stanford University",
+          "url": "https://www.stanford.edu"
+        },
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "University College London",
+          "url": "https://www.ucl.ac.uk"
+        }
+      ],
+      "sameAs": [
+        "https://orcid.org/0009-0005-5901-6407",
+        "https://scholar.google.com/citations?user=UBbopPcAAAAJ&hl=en",
+        "https://www.wikidata.org/wiki/Q135747997",
+        "https://med.stanford.edu/profiles/thomas-le-menestrel",
+        "https://github.com/tlemenestrel",
+        "https://huggingface.co/tlemenestrel",
+        "https://www.linkedin.com/in/thomas-le-menestrel",
+        "https://tlemenestrel.medium.com",
+        "https://www.researchgate.net/profile/Thomas-Le-Menestrel",
+        "https://loop.frontiersin.org/people/3151360/overview",
+        "https://www.crunchbase.com/person/thomas-le-menestrel",
+        "https://wikialpha.co/wiki/Thomas_Le_Menestrel",
+        "https://en.everybodywiki.com/Thomas_Le_Menestrel"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://thomaslemenestrel.com/#website",
+      "url": "https://thomaslemenestrel.com",
+      "name": "Thomas Le Menestrel",
+      "inLanguage": "en",
+      "about": { "@id": "https://thomaslemenestrel.com/#person" },
+      "publisher": { "@id": "https://thomaslemenestrel.com/#person" }
+    },
+    {
+      "@type": "ProfilePage",
+      "@id": "https://thomaslemenestrel.com/#webpage",
+      "url": "https://thomaslemenestrel.com",
+      "name": "Thomas Le Menestrel | Quantitative Researcher",
+      "isPartOf": { "@id": "https://thomaslemenestrel.com/#website" },
+      "mainEntity": { "@id": "https://thomaslemenestrel.com/#person" }
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.1093/jrsssb/qkaf050",
+      "name": "Pretraining and the lasso",
+      "url": "https://academic.oup.com/jrsssb/article/88/1/261/8226740",
+      "datePublished": "2026-02",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "DOI",
+        "value": "10.1093/jrsssb/qkaf050"
+      },
+      "sameAs": "https://arxiv.org/abs/2401.12911",
+      "pagination": "261-281",
+      "isPartOf": {
+        "@type": "PublicationIssue",
+        "issueNumber": "1",
         "isPartOf": {
           "@type": "PublicationVolume",
-          "name": "Circulation",
-          "volumeNumber": "146",
-          "pagination": "A14115-A14115"
-        },
-        "publisher": {
-          "@type": "Organization",
-          "name": "American Heart Association"
-        },
-        "url": "https://www.ahajournals.org/doi/abs/10.1161/circ.146.suppl_1.14115"
+          "volumeNumber": "88",
+          "isPartOf": {
+            "@type": "Periodical",
+            "name": "Journal of the Royal Statistical Society Series B: Statistical Methodology"
+          }
+        }
       },
-      {
-        "@type": "ScholarlyArticle",
-        "name": "Pretraining and the Lasso",
-        "author": [
-          { "@type": "Person", "name": "Erin Craig" },
-          { "@type": "Person", "name": "Mert Pilanci" },
-          { "@type": "Person", "name": "Thomas Le Menestrel" },
-          { "@type": "Person", "name": "Balasubramanian Narasimhan" },
-          { "@type": "Person", "name": "Manuel Rivas" },
-          { "@type": "Person", "name": "Roozbeh Dehghannasiri" },
-          { "@type": "Person", "name": "Julia Salzman" },
-          { "@type": "Person", "name": "Jonathan Taylor" },
-          { "@type": "Person", "name": "Robert Tibshirani" }
-        ],
-        "datePublished": "2024-01-23",
-        "url": "https://arxiv.org/abs/2401.12911"
-      }
-    ]
-  }
-  </script>
+      "publisher": {
+        "@type": "Organization",
+        "name": "Oxford University Press"
+      },
+      "author": [
+        { "@type": "Person", "name": "Erin Craig" },
+        { "@type": "Person", "name": "Mert Pilanci" },
+        { "@id": "https://thomaslemenestrel.com/#person" },
+        { "@type": "Person", "name": "Balasubramanian Narasimhan" },
+        { "@type": "Person", "name": "Manuel A. Rivas" },
+        { "@type": "Person", "name": "Stein-Erik Gullaksen" },
+        { "@type": "Person", "name": "Roozbeh Dehghannasiri" },
+        { "@type": "Person", "name": "Julia Salzman" },
+        { "@type": "Person", "name": "Jonathan Taylor" },
+        { "@type": "Person", "name": "Robert Tibshirani" }
+      ]
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.1371/journal.pone.0336861",
+      "name": "Using pre-training and interaction modeling for ancestry-specific disease prediction using multiomics data from the UK Biobank",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0336861",
+      "datePublished": "2025-12-01",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "DOI",
+        "value": "10.1371/journal.pone.0336861"
+      },
+      "sameAs": "https://arxiv.org/abs/2404.17626",
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "PLOS One"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Public Library of Science"
+      },
+      "author": [
+        { "@id": "https://thomaslemenestrel.com/#person" },
+        { "@type": "Person", "name": "Erin Craig" },
+        { "@type": "Person", "name": "Robert Tibshirani" },
+        { "@type": "Person", "name": "Trevor Hastie" },
+        { "@type": "Person", "name": "Manuel Rivas" }
+      ]
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://ai4d3.github.io/2025/papers/3_Smiles2Dock_a_large_scale_da.pdf",
+      "name": "Smiles2Dock: a large-scale dataset for ML-based docking score prediction using AlphaFold structures",
+      "url": "https://ai4d3.github.io/2025/papers/3_Smiles2Dock_a_large_scale_da.pdf",
+      "datePublished": "2025-12",
+      "sameAs": "https://arxiv.org/abs/2406.05738",
+      "publication": {
+        "@type": "PublicationEvent",
+        "name": "NeurIPS 2025 Workshop on AI Virtual Cells and Instruments: A New Era in Drug Discovery and Development",
+        "startDate": "2025-12-02",
+        "endDate": "2025-12-07",
+        "location": {
+          "@type": "Place",
+          "name": "San Diego, California, United States"
+        }
+      },
+      "author": [
+        { "@id": "https://thomaslemenestrel.com/#person" },
+        { "@type": "Person", "name": "Manuel A. Rivas" }
+      ]
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://huggingface.co/datasets/tlemenestrel/Smiles2Dock",
+      "name": "Smiles2Dock",
+      "description": "Smiles2Dock is a dataset mapping chemical SMILES to docking scores across multiple proteins, intended for ML research in molecular docking.",
+      "url": "https://huggingface.co/datasets/tlemenestrel/Smiles2Dock",
+      "datePublished": "2024-06-10",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "creator": [
+        { "@id": "https://thomaslemenestrel.com/#person" },
+        { "@type": "Person", "name": "Manuel A. Rivas" }
+      ]
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.1161/circ.146.suppl_1.14115",
+      "name": "Multivariate Predictors of Long-Term Outcome From Ventricular Tachycardia Ablation in a Large Registry",
+      "url": "https://www.ahajournals.org/doi/abs/10.1161/circ.146.suppl_1.14115",
+      "datePublished": "2022-11-01",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "DOI",
+        "value": "10.1161/circ.146.suppl_1.14115"
+      },
+      "isPartOf": {
+        "@type": "PublicationVolume",
+        "volumeNumber": "146",
+        "isPartOf": {
+          "@type": "Periodical",
+          "name": "Circulation"
+        }
+      },
+      "pagination": "A14115",
+      "publisher": {
+        "@type": "Organization",
+        "name": "American Heart Association"
+      },
+      "author": [
+        { "@type": "Person", "name": "Jatin Goyal" },
+        { "@type": "Person", "name": "Brototo Deb" },
+        { "@id": "https://thomaslemenestrel.com/#person" },
+        { "@type": "Person", "name": "Hui Ju Chang" },
+        { "@type": "Person", "name": "Fleur V Tjong" },
+        { "@type": "Person", "name": "Albert J Rogers" },
+        { "@type": "Person", "name": "Zahra Azizi" },
+        { "@type": "Person", "name": "Samuel Ruiperez-Campillo" },
+        { "@type": "Person", "name": "Ruibin Feng" },
+        { "@type": "Person", "name": "Prasanth Ganesan" }
+      ]
+    }
+  ]
+}
+    </script>
 
     <!-- Open Graph (Facebook, LinkedIn, etc.) -->
-    <meta property="og:type" content="website">
+    <meta property="og:type" content="profile">
     <meta property="og:url" content="https://thomaslemenestrel.com">
     <meta property="og:title" content="Thomas Le Menestrel - Quantitative Researcher | Machine Learning & NLP">
     <meta property="og:description" content="Thomas Le Menestrel is a Quantitative Researcher specializing in Machine Learning and NLP. Previously at Stanford University.">
     <meta property="og:image" content="https://thomaslemenestrel.com/images/pfp.jpg">
+    <meta property="profile:first_name" content="Thomas">
+    <meta property="profile:last_name" content="Le Menestrel">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
@@ -163,7 +302,6 @@
         gtag("config", "G-EXCQHG6Y7F");
     </script>
     <script defer src="/static/js/main.00193fbd.js"></script>
-</head>
 </head>
 <body>
     <noscript>You need to enable JavaScript to run this app</noscript>
