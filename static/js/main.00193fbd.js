@@ -166,11 +166,14 @@
 													text: "Experience",
 													href: "#experience"
 												}), (0, f.jsx)(g, {
-													text: "Projects",
-													href: "#projects"
-												}), (0, f.jsx)(g, {
-													text: "Medium Articles",
-													href: "#research"
+											text: "Projects",
+											href: "#projects"
+										}), (0, f.jsx)(g, {
+											text: "Research",
+											href: "#research"
+										}), (0, f.jsx)(g, {
+											text: "Articles",
+											href: "#articles"
 												}), (0, f.jsx)(g, {
 													text: "Skills",
 													href: "#skills"
@@ -222,7 +225,13 @@
 								className: "columns is-mobile",
 								children: [(0, f.jsx)("div", {
 									className: "column"
-								}), h.OT.eH.map((function(e, t) {
+								}), [{
+									network: "Google Scholar",
+									url: "https://scholar.google.com/citations?user=UBbopPcAAAAJ&hl=en",
+									x_icon: "fa-solid fa-google-scholar"
+								}].concat(h.OT.eH.filter((function(e) {
+									return "Email" !== e.network
+								}))).map((function(e, t) {
 									return(0, f.jsx)("div", {
 										className: "column has-text-centered",
 										children: (0, f.jsx)("a", {
@@ -2265,6 +2274,57 @@
 									}, t)
 								}))
 							})]
+							})
+					})
+				},
+				researchSection = function() {
+					return(0, f.jsx)("section", {
+						className: "section",
+						id: "research",
+						children: (0, f.jsxs)("div", {
+							className: "container",
+							children: [(0, f.jsx)("h1", {
+								className: "title",
+								children: "Research"
+							}), [{
+								name: "Pretraining and the lasso",
+								url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UBbopPcAAAAJ&citation_for_view=UBbopPcAAAAJ:qjMakFHDy7sC",
+								meta: "E. Craig, M. Pilanci, T. Le Menestrel, B. Narasimhan, M. A. Rivas, et al. · Journal of the Royal Statistical Society Series B: Statistical Methodology · 2026",
+								description: "Develops a pretraining framework for Lasso models, transferring structure learned from broad data to improve task-specific sparse prediction."
+							}, {
+								name: "Using pre-training and interaction modeling for ancestry-specific disease prediction using multiomics data from the UK Biobank",
+								url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UBbopPcAAAAJ&citation_for_view=UBbopPcAAAAJ:W7OEmFMy1HYC",
+								meta: "T. Le Menestrel, E. Craig, R. Tibshirani, T. Hastie, M. Rivas · PLOS ONE 20(12), e0336861 · 2025",
+								description: "Applies pretraining and interaction modeling to build ancestry-specific disease-prediction models from UK Biobank multiomics data."
+							}, {
+								name: "Smiles2Dock: a large-scale dataset for ML-based docking score prediction using AlphaFold structures",
+								url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UBbopPcAAAAJ&citation_for_view=UBbopPcAAAAJ:Y0pCki6q_DkC",
+								meta: "T. Le Menestrel, M. R. Cruz · NeurIPS 2025 AI for Science Workshop · 2025",
+								description: "Introduces a large-scale dataset for training and evaluating machine-learning models that predict molecular docking scores from AlphaFold protein structures."
+							}, {
+								name: "Benchmarking modular natural language processing pipelines",
+								url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UBbopPcAAAAJ&citation_for_view=UBbopPcAAAAJ:zYLM7Y9cAGgC",
+								meta: "J. Srinivasa, R. Kompella, A. Deepak, J. M. Rauchwerk, T. Le Menestrel · US Patent US20250259010A1 · 2025",
+								description: "Describes a modular system for composing, evaluating, and benchmarking natural-language-processing pipelines from reusable components."
+							}].map((function(e, t) {
+								return(0, f.jsxs)("article", {
+									className: "box",
+									children: [(0, f.jsx)("h2", {
+										className: "title is-5",
+										children: (0, f.jsx)("a", {
+											href: e.url,
+											target: "_blank",
+											rel: "noopener noreferrer",
+											children: e.name
+										})
+									}), (0, f.jsx)("p", {
+										className: "is-size-7 has-text-grey mb-2",
+										children: e.meta
+									}), (0, f.jsx)("p", {
+										children: e.description
+									})]
+								}, t)
+							}))]
 						})
 					})
 				};
@@ -5570,7 +5630,7 @@
 								className: "container is-centered",
 								children: [(0, f.jsx)("h1", {
 									className: "title",
-									children: "GitHub Contributions:"
+									children: "GitHub Contributions"
 								}), (0, f.jsx)(cr, {
 									username: "thomaslemenestrel",
 									blockSize: 24,
@@ -5698,20 +5758,6 @@
 										variant: "h6",
 										children: [t.name, " "]
 									}),
-									action: (0, f.jsx)(Le, {
-										"aria-label": "settings",
-										style: {
-											color: "black"
-										},
-										children: (0, f.jsx)("a", {
-											href: t.pdf,
-											download: t.name,
-											style: {
-												color: "black"
-											},
-											children: (0, f.jsx)(gi.Z, {})
-										})
-									})
 								}), (0, f.jsx)("a", {
 									href: t.html_url,
 									target: "_blank",
@@ -5749,12 +5795,12 @@
 				var vi = function() {
 					return(0, f.jsx)("section", {
 						className: "section",
-						id: "research",
+						id: "articles",
 						children: (0, f.jsxs)("div", {
 							className: "container",
 							children: [(0, f.jsx)("h1", {
 								className: "title",
-								children: "Medium Articles"
+								children: "Articles"
 							}), (0, f.jsx)(G, {
 								container: !0,
 								spacing: 1,
@@ -5930,7 +5976,13 @@
 												className: "columns is-mobile",
 												children: [(0, f.jsx)("div", {
 													className: "column"
-												}), h.OT.eH.map((function(e, t) {
+																}), [{
+																	network: "Google Scholar",
+																	url: "https://scholar.google.com/citations?user=UBbopPcAAAAJ&hl=en",
+																	x_icon: "fa-solid fa-google-scholar"
+																}].concat(h.OT.eH.filter((function(e) {
+																	return "Email" !== e.network
+																}))).map((function(e, t) {
 													return(0, f.jsx)("div", {
 														className: "column has-text-centered",
 														children: (0, f.jsx)("a", {
@@ -6092,7 +6144,7 @@
 				};
 				var ki = function() {
 					return(0, f.jsxs)("main", {
-						children: [(0, f.jsx)(w, {}), (0, f.jsx)(Ze, {}), (0, f.jsx)(tt, {}), (0, f.jsx)(di, {}), (0, f.jsx)(vi, {}), (0, f.jsx)(X, {}), (0, f.jsx)(wi, {}), (0, f.jsx)(xi, {})]
+						children: [(0, f.jsx)(w, {}), (0, f.jsx)(Ze, {}), (0, f.jsx)(tt, {}), (0, f.jsx)(researchSection, {}), (0, f.jsx)(vi, {}), (0, f.jsx)(X, {}), (0, f.jsx)(di, {}), (0, f.jsx)(wi, {}), (0, f.jsx)(xi, {})]
 					})
 				};
 				var Si = function() {
