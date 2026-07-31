@@ -809,9 +809,9 @@
 										container: !0,
 										spacing: 3,
 										justify: "center",
-										children: h.nb.filter((function(e) {
-											return !["JavaScript", "Django", "Dash", "TensorFlow"].includes(e.name)
-										})).map((function(e) {
+										children: [h.nb[0], h.nb[1], h.nb[6]].concat(h.nb.filter((function(e) {
+											return !["Python", "PyTorch", "C++", "JavaScript", "Django", "Dash", "TensorFlow", "SciSpacy", "Docker", "Java", "SciPy", "SQL"].includes(e.name)
+										}))).map((function(e) {
 											return(0, f.jsx)(Y, {
 												index: h.nb.indexOf(e),
 												name: e.name,
@@ -2243,7 +2243,22 @@
 								container: !0,
 								spacing: 1,
 								justify: "center",
-								children: h.q.map((function(e, t) {
+								children: [{
+									name: "Smiles2Dock",
+									html_url: "https://github.com/rivas-lab/Smiles2Dock",
+									description: "An open, large-scale multi-task dataset and benchmark for ML-based molecular docking, with more than 25 million protein-ligand binding scores.",
+									language: "Python"
+								}, {
+									name: "ptlasso",
+									html_url: "https://github.com/thomaslemenestrel/ptlasso",
+									description: "An implementation of pre-trained Lasso models, enabling a model trained on broad data to be fine-tuned for a specific prediction task.",
+									language: "Python"
+								}, {
+									name: "BLAZE",
+									html_url: "https://github.com/cisco-open/BLAZE",
+									description: "A composable, open-source platform for assembling, benchmarking, and deploying NLP pipelines through reusable building blocks.",
+									language: "Python"
+								}, h.q[0]].map((function(e, t) {
 									return(0, f.jsx)(Ke, {
 										repo: e,
 										language: et
