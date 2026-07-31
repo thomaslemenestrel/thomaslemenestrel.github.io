@@ -294,20 +294,7 @@
 											e.target.onerror = null, e.target.src = h.OT.qq
 										}
 									})
-								}), (0, f.jsx)("br", {}), (0, f.jsx)("div", {
-									className: "columns download has-text-centered is-centered",
-									children: (0, f.jsx)("p", {
-										children: (0, f.jsxs)("a", {
-											href: h.OT.v4,
-											className: "button",
-											download: "Resume",
-											children: ["", (0, f.jsx)("i", {
-												className: "fa fa-download",
-												children: "  "
-											}), " "]
-										})
-									})
-								}), (0, f.jsx)("p", {
+								}), (0, f.jsx)("br", {}), (0, f.jsx)("p", {
 									className: "subtitle is-5 has-text-white has-text-weight-light summary-text",
 									children: h.OT.Sp
 								}), (0, f.jsx)("div", {
@@ -822,7 +809,9 @@
 										container: !0,
 										spacing: 3,
 										justify: "center",
-										children: h.nb.map((function(e) {
+										children: h.nb.filter((function(e) {
+											return !["JavaScript", "Django", "Dash", "TensorFlow"].includes(e.name)
+										})).map((function(e) {
 											return(0, f.jsx)(Y, {
 												index: h.nb.indexOf(e),
 												name: e.name,
@@ -5568,7 +5557,7 @@
 									className: "title",
 									children: "GitHub Contributions:"
 								}), (0, f.jsx)(cr, {
-									username: "tlemenestrel",
+									username: "thomaslemenestrel",
 									blockSize: 24,
 									fontSize: 20,
 									children: (0, f.jsx)(ui, {
