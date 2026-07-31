@@ -190,7 +190,8 @@
 					return(0, f.jsxs)("section", {
 						className: "hero is-dark has-bg-image",
 						style: {
-							minHeight: "70vh"
+							minHeight: "70vh",
+							backgroundPosition: "center top"
 						},
 						children: [(0, f.jsx)("div", {
 							className: "hero-head",
@@ -231,7 +232,7 @@
 								}), [{
 									network: "Google Scholar",
 									url: "https://scholar.google.com/citations?user=UBbopPcAAAAJ&hl=en",
-									x_icon: "fa-brands fa-google-scholar"
+									x_icon: "fa-brands fa-2x fa-google-scholar"
 								}].concat(h.OT.eH.filter((function(e) {
 									return "Email" !== e.network
 								}))).map((function(e, t) {
@@ -5984,7 +5985,7 @@
 																}), [{
 																	network: "Google Scholar",
 																	url: "https://scholar.google.com/citations?user=UBbopPcAAAAJ&hl=en",
-																	x_icon: "fa-brands fa-google-scholar"
+																	x_icon: "fa-brands fa-2x fa-google-scholar"
 																}].concat(h.OT.eH.filter((function(e) {
 																	return "Email" !== e.network
 																}))).map((function(e, t) {
