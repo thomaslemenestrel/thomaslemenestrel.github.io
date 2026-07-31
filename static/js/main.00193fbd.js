@@ -160,17 +160,17 @@
 												className: "navbar-end",
 												onClick: this.handleMenuClick,
 												children: [(0, f.jsx)(g, {
-													text: "About Me",
+													text: "About",
 													href: "#aboutMe"
 												}), (0, f.jsx)(g, {
 													text: "Experience",
 													href: "#experience"
 												}), (0, f.jsx)(g, {
-											text: "Projects",
-											href: "#projects"
-										}), (0, f.jsx)(g, {
 											text: "Research",
 											href: "#research"
+										}), (0, f.jsx)(g, {
+											text: "Projects",
+											href: "#projects"
 										}), (0, f.jsx)(g, {
 											text: "Articles",
 											href: "#articles"
@@ -190,7 +190,7 @@
 					return(0, f.jsxs)("section", {
 						className: "hero is-dark has-bg-image",
 						style: {
-							minHeight: "70vh",
+							minHeight: "80vh",
 							backgroundPosition: "center top"
 						},
 						children: [(0, f.jsx)("div", {
@@ -1831,15 +1831,6 @@
 							}), (0, f.jsx)("p", {
 								className: "subtitle is-6",
 								children: e.position
-							}), (0, f.jsx)("div", {
-								className: "field is-grouped ".concat(e.expIndex % 2 != h.ZT.length % 2 && window.screen.width > 768 ? "is-grouped-right" : "is-grouped-left", " is-grouped-multiline"),
-								children: e.badge.map((function(t, n) {
-									return(0, f.jsx)(b, {
-										text: t.name,
-										faIcon: t.x_icon,
-										leftTimeline: e.expIndex % 2 != h.ZT.length % 2 && window.screen.width > 768
-									}, n)
-								}))
 							}), (0, f.jsx)(Ie, {
 								summary: e.summary,
 								summary1: e.summary1,
@@ -2134,7 +2125,18 @@
 					Ke = function(e) {
 						var t = e.repo,
 							n = e.language,
-							o = Je();
+							o = Je(),
+							a = r.useState(null),
+							i = a[0],
+							s = a[1];
+						r.useEffect((function() {
+							var e = t.html_url.replace("https://github.com/", "");
+							fetch("https://api.github.com/repos/".concat(e)).then((function(e) {
+								return e.ok ? e.json() : null
+							})).then((function(e) {
+								e && s(e.stargazers_count)
+							})).catch((function() {}))
+						}), [t.html_url]);
 						return(0, f.jsx)(G, {
 							xs: 12,
 							sm: 6,
@@ -2209,7 +2211,7 @@
 											},
 											children: t.language2
 										})]
-									}) : null, t.stargazers_count >= 0 ? (0, f.jsx)(r.Fragment, {
+									}) : null, null !== i ? (0, f.jsx)(r.Fragment, {
 										children: (0, f.jsx)("a", {
 											href: t.html_url,
 											target: "_blank",
@@ -2220,8 +2222,9 @@
 												color: "#551A8B"
 											},
 											children: (0, f.jsxs)("span", {
-												className: "octicon octicon-star",
-												children: [" ", t.stargazers_count]
+												children: [(0, f.jsx)("i", {
+													className: "fa-solid fa-star"
+												}), " ", i]
 											})
 										})
 									}) : null, t.forks_count >= 0 ? (0, f.jsx)(r.Fragment, {
@@ -5971,7 +5974,7 @@
 											style: {
 												color: "white"
 											},
-											children: "You can find my email address and links to my Linkedin and GitHub accounts below:"
+											children: "You can find links to my Google Scholar, LinkedIn, and GitHub profiles below:"
 										}), (0, f.jsx)("br", {}), (0, f.jsx)("div", {
 											className: "hero-foot",
 											style: {
@@ -6150,7 +6153,7 @@
 				};
 				var ki = function() {
 					return(0, f.jsxs)("main", {
-						children: [(0, f.jsx)(w, {}), (0, f.jsx)(Ze, {}), (0, f.jsx)(tt, {}), (0, f.jsx)(researchSection, {}), (0, f.jsx)(vi, {}), (0, f.jsx)(X, {}), (0, f.jsx)(di, {}), (0, f.jsx)(wi, {}), (0, f.jsx)(xi, {})]
+						children: [(0, f.jsx)(w, {}), (0, f.jsx)(Ze, {}), (0, f.jsx)(researchSection, {}), (0, f.jsx)(tt, {}), (0, f.jsx)(vi, {}), (0, f.jsx)(X, {}), (0, f.jsx)(di, {}), (0, f.jsx)(wi, {}), (0, f.jsx)(xi, {})]
 					})
 				};
 				var Si = function() {
@@ -6159,6 +6162,7 @@
 							style: {
 								position: "relative",
 								overflow: "hidden",
+								padding: "1.5rem",
 								backgroundImage: "linear-gradient(to right, #e66465, #9198e5)"
 							},
 							children: (0, f.jsxs)("div", {
