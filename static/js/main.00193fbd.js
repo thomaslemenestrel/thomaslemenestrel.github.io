@@ -116,7 +116,7 @@
 						})
 					},
 					h = JSON.parse(
-						'{"OT":{"u2":"Thomas Le Menestrel","PS":["Quantitative Researcher"],"uO":"images/pfp.webp","qq":"images/pfp.jpg","Sp":"Hey there! I am Thomas Le Menestrel, a Quantitative Researcher at QRT. Feel free to reach out!","xh":{"V2":"London","KM":""},"Do":"","eH":[{"network":"Email","username":"tlemenestrel","url":"mailto:tlemenestrel@hotmail.fr","x_icon":"fas fa-2x fa-envelope"},{"network":"LinkedIn","username":"thomas-le-menestrel","url":"https://www.linkedin.com/in/thomas-le-menestrel/","x_icon":"fab fa-2x fa-linkedin"},{"network":"GitHub","username":"tlemenestrel","url":"https://github.com/tlemenestrel","x_icon":"fab fa-2x fa-github"}]},"ZT":[{"company":"Qube Research & Technologies","position":"Quantitative Researcher","website":"https://www.qube-rt.com","startDate":"2024-05","endDate":"PRESENT","image":"images/timeline/qrt.jpeg","summary":"Working on LLM research for systematic trading.","summary1":"","summary2":"","highlights":[{"name":"Python","x_icon":"fab fa-python"}, {"name":"PyTorch","x_icon":"fas fa-code"}, {"name":"NLP","x_icon":"fas fa-code"}], "index":8}, {"company":"Cisco Research","position":"Research Engineer","website":"https://research.cisco.com","startDate":"2022-06","endDate":"SEPTEMBER 2022","image":"images/timeline/cisco.png","summary":"Integrated state-of-the-art NLP research into Cisco business products within Cisco Research under supervision of Prof. Ramana Kompella.","summary1":"","summary2":"","highlights":[{"name":"Python","x_icon":"fab fa-python"}, {"name":"PyTorch","x_icon":"fas fa-code"}, {"name":"Flask","x_icon":"fas fa-code"},{"name":"AWS EC2","x_icon":"fab fa-aws"}], "index":7},{"company":"Stanford School of Medicine","position":"Research Assistant","website":"https://web.stanford.edu/group/narayanlab/cgi-bin/wordpress/","startDate":"2022-03","endDate":"JUNE 2022","image":"images/timeline/medicine.jpeg","summary":"Researched NLP methods to profile tachycardia ablation in collaboration with UC Berkeley under supervision of Prof. Sanjiv Narayan.","summary1":"","summary2":"","highlights":[{"name":"Python","x_icon":"fab fa-python"},{"name":"PyTorch","x_icon":"fas fa-code"},{"name":"SciSpacy","x_icon":"fas fa-code"},{"name":"GCP","x_icon":"fas fa-code"}],"index":7},{"company":"Stanford University","position":"Graduate Student","website":"https://www.stanford.edu/","startDate":"2021-09","endDate":"None","image":"images/timeline/stanford.png","summary":"Entered Stanford University as an MS Computational and Mathematical Engineering student.","summary1":"","summary2":"","highlights":[],"index":6},{"company":"Microsoft","position":"Student Partner","website":"https://studentambassadors.microsoft.com","startDate":"2020-01","endDate":"JANUARY 2021","image":"images/timeline/microsoft.png","summary":"Led live Microsoft technologies programming demos for Azure ML for NLP and Power BI as Student Partner for UCL’s 40,000 students.","summary1":"","summary2":"","highlights":[{"name":"Python","x_icon":"fab fa-python"},{"name":"Azure ML","x_icon":"fas fa-code"},{"name":"Microsoft Power BI","x_icon":"fas fa-code"},{"name":"NLP","x_icon":"fas fa-code"}],"index":5},{"company":"Imagine Software","position":"Research Scientist","website":"https://tsimagine.com","startDate":"2020-06","endDate":"AUGUST 2020","image":"images/timeline/imagine.jpg","summary":"Built Hybrid Generalised Autoregressive Conditional Heteroskedasticity-LSTM for volatility forecasting using PyFlux and TensorFlow.","summary1":"","summary2":"","highlights":[{"name":"Python","x_icon":"fab fa-python"},{"name":"JavaScript","x_icon":"fas fa-code"},{"name":"Docker","x_icon":"fab fa-docker"},{"name":"PyFlux","x_icon":"fas fa-code"}],"index":4},{"company":"Amazon","position":"Analyst","website":"http://amazon.com","image":"images/timeline/amazon.png","startDate":"2020-06","endDate":"AUGUST 2020","summary":"Deployed Python software connected to AWS EC2 to automate carriers backlog management within Amazon supply chain in EU.","summary1":"","summary2":"","highlights":[{"name":"Python","x_icon":"fab fa-python"},{"name":"AWS EC2","x_icon":"fab fa-aws"},{"name":"Microsoft Power BI","x_icon":"fas fa-code"},{"name":"NumPy","x_icon":"fas fa-code"}],"index":3},{"company":"Kavida AI","position":"Machine Learning Engineer","website":"https://www.kavida.ai","startDate":"2020-03","endDate":"MAY 2020","image":"images/timeline/kavida.jpg","summary":"Implemented innovative Machine Learning methods for supply-chain resiliency during Covid crisis under supervision of Dr. Sumit Sinha","summary1":"","summary2":"","highlights":[{"name":"Python","x_icon":"fab fa-python"},{"name":"Multi-threading","x_icon":"fas fa-code"},{"name":"XGBoost","x_icon":"fas fa-code"},{"name":"NumPy","x_icon":"fas fa-code"}],"index":2},{"company":"University College London (UCL)","position":"Undergraduate Student","website":"https://www.ucl.ac.uk/engineering/ucl-engineering","image":"images/timeline/ucl.jpg","startDate":"2018-09","endDate":"None","summary":"Joined UCL School of Engineering as an Undergraduate student in Information Management.","summary1":"","summary2":"","highlights":[],"index":1}],"nb":[{"name":"Python","icon":"images/skills/python.png","use":"","size":2,"level":"Advanced"},{"name":"PyTorch","level":"Advanced","size":2,"icon":"images/skills/pytorch.png","use":""},{"name":"SciSpacy","level":"Advanced","size":2,"icon":"images/skills/scispacy.png","use":""},{"name":"Java","level":"Advanced","size":2,"icon":"images/skills/java.jpg","use":""},{"name":"TensorFlow","level":"Advanced","size":3,"icon":"images/skills/tensorflow.png","use":""},{"name":"HuggingFace","level":"Advanced","size":2,"icon":"images/skills/huggingface.png","use":""},{"name":"C++","level":"Advanced","size":2,"icon":"images/skills/c++.png","use":""},{"name":"Git","level":"Advanced","size":2,"icon":"images/skills/git.png","use":""},{"name":"JavaScript","level":"Intermediate","size":3,"icon":"images/skills/javascript.png","use":""},{"name":"Linux","level":"Intermediate","size":2,"icon":"images/skills/linux.png","use":""}, {"name":"AWS","level":"Intermediate","size":2,"icon":"images/skills/aws.png","use":""}, {"name":"NumPy","level":"Intermediate","size":2,"icon":"images/skills/numpy.png","use":""}, {"name":"Django","level":"Intermediate","size":2,"icon":"images/skills/django.png","use":""},{"name":"Dash","level":"Intermediate","size":2,"icon":"images/skills/dash.png","use":""}, {"name":"SQL","level":"Intermediate","size":2,"icon":"images/skills/sql.png","use":""}, {"name":"Docker","level":"Intermediate","size":2,"icon":"images/skills/docker.png","use":""}, {"name":"SciPy","level":"Intermediate","size":2,"icon":"images/skills/scipy.png","use":""}],"N_":[],"q":[{"name":"Undirected Graphs","html_url":"https://github.com/tlemenestrel/undirected_graphs","description":"An implementation of ordinary and partial differential equations solvers using undirected graphs in C++.","language":"C++"},{"name":"SWE Projects","html_url":"https://github.com/tlemenestrel/swe_scientific_projects","description":"A collection of scientific projects in C++ and Python.","language":"Python", "language2":"C++"},{"name":"minGPT Birthplace","html_url":"https://github.com/tlemenestrel/minGPT_birthplace_prediction","description":"An implementation of minGPT with synthesized attention for birthplace prediction in PyTorch. ","language":"Python"},{"name":"Netflix Prize","html_url":"https://github.com/tlemenestrel/netflix_prize","description":"An implementation of pcLasso and Truncated SVD on the Netflix Prize dataset in Python.","language":"Python"}],"Z6":[{"name":"An intuitive comparison of Ridge and Lasso","html_url":"https://medium.com/data-science/lasso-and-ridge-regression-an-intuitive-comparison-3ee415487d18","description":"An intuitive comparison of Lasso and Ridge by diving into the mathematics of both algorithms and looking at the results on a regression problem.","image":"images/articles/lasso.png"}, {"name":"Sparse Matrices for Machine Learning","html_url":"https://medium.com/data-science/sparse-matrices-why-they-matter-for-machine-learning-and-data-science-55d704d936b2", "description":"An article that dives into the importance of sparse matrices, specifically in CSR and COO format, for Machine Learning problems by looking at Recommendation Systems.", "image":"images/articles/cube.jpeg"}, {"name":"An introduction to Markov Chains","html_url":"https://medium.com/data-science/a-gentle-introduction-to-markov-chains-by-modelling-dice-rolls-ed26a249dd0d", "description":"An article that introduces Markov chains by looking at their applications in different fields and a practical example modelling dice rolls.", "image":"images/articles/dices.jpeg"}, {"name":"Random Forest and Decision Trees","html_url":"https://medium.com/data-science/random-forest-and-decision-trees-by-hand-no-coding-a209f2bbb1c9", "description":"An article that looks at the mathematics behind Decision Trees and Random Forest and how to build those from scratch.", "image":"images/articles/tree.png"}],"pR":[]}'),
+						'{"OT":{"u2":"Thomas Le Menestrel","PS":["Quantitative Researcher"],"uO":"images/pfp.webp","qq":"images/pfp.jpg","Sp":"Quantitative LLM researcher at QRT researching LLM-based trading signals. Previously at Amazon and Cisco Research. Stanford ICME MS and UCL BSc.","xh":{"V2":"London","KM":""},"Do":"","eH":[{"network":"Email","username":"tlemenestrel","url":"mailto:tlemenestrel@hotmail.fr","x_icon":"fas fa-2x fa-envelope"},{"network":"LinkedIn","username":"thomas-le-menestrel","url":"https://www.linkedin.com/in/thomas-le-menestrel/","x_icon":"fab fa-2x fa-linkedin"},{"network":"GitHub","username":"tlemenestrel","url":"https://github.com/thomaslemenestrel","x_icon":"fab fa-2x fa-github"}]},"ZT":[{"company":"Qube Research & Technologies","position":"Quantitative Researcher","website":"https://www.qube-rt.com","startDate":"2024-05","endDate":"PRESENT","image":"images/timeline/qrt.jpeg","summary":"Working on LLM research for systematic trading.","summary1":"","summary2":"","highlights":[{"name":"Python","x_icon":"fab fa-python"}, {"name":"PyTorch","x_icon":"fas fa-code"}, {"name":"NLP","x_icon":"fas fa-code"}], "index":8}, {"company":"Cisco Research","position":"Research Engineer","website":"https://research.cisco.com","startDate":"2022-06","endDate":"SEPTEMBER 2022","image":"images/timeline/cisco.png","summary":"Integrated state-of-the-art NLP research into Cisco business products within Cisco Research under supervision of Prof. Ramana Kompella.","summary1":"","summary2":"","highlights":[{"name":"Python","x_icon":"fab fa-python"}, {"name":"PyTorch","x_icon":"fas fa-code"}, {"name":"Flask","x_icon":"fas fa-code"},{"name":"AWS EC2","x_icon":"fab fa-aws"}], "index":7},{"company":"Stanford School of Medicine","position":"Research Assistant","website":"https://web.stanford.edu/group/narayanlab/cgi-bin/wordpress/","startDate":"2022-03","endDate":"JUNE 2022","image":"images/timeline/medicine.jpeg","summary":"Researched NLP methods to profile tachycardia ablation in collaboration with UC Berkeley under supervision of Prof. Sanjiv Narayan.","summary1":"","summary2":"","highlights":[{"name":"Python","x_icon":"fab fa-python"},{"name":"PyTorch","x_icon":"fas fa-code"},{"name":"SciSpacy","x_icon":"fas fa-code"},{"name":"GCP","x_icon":"fas fa-code"}],"index":7},{"company":"Stanford University","position":"Graduate Student","website":"https://www.stanford.edu/","startDate":"2021-09","endDate":"None","image":"images/timeline/stanford.png","summary":"Entered Stanford University as an MS Computational and Mathematical Engineering student.","summary1":"","summary2":"","highlights":[],"index":6},{"company":"Microsoft","position":"Student Partner","website":"https://studentambassadors.microsoft.com","startDate":"2020-01","endDate":"JANUARY 2021","image":"images/timeline/microsoft.png","summary":"Led live Microsoft technologies programming demos for Azure ML for NLP and Power BI as Student Partner for UCL’s 40,000 students.","summary1":"","summary2":"","highlights":[{"name":"Python","x_icon":"fab fa-python"},{"name":"Azure ML","x_icon":"fas fa-code"},{"name":"Microsoft Power BI","x_icon":"fas fa-code"},{"name":"NLP","x_icon":"fas fa-code"}],"index":5},{"company":"Imagine Software","position":"Research Scientist","website":"https://tsimagine.com","startDate":"2020-06","endDate":"AUGUST 2020","image":"images/timeline/imagine.jpg","summary":"Built Hybrid Generalised Autoregressive Conditional Heteroskedasticity-LSTM for volatility forecasting using PyFlux and TensorFlow.","summary1":"","summary2":"","highlights":[{"name":"Python","x_icon":"fab fa-python"},{"name":"JavaScript","x_icon":"fas fa-code"},{"name":"Docker","x_icon":"fab fa-docker"},{"name":"PyFlux","x_icon":"fas fa-code"}],"index":4},{"company":"Amazon","position":"Analyst","website":"http://amazon.com","image":"images/timeline/amazon.png","startDate":"2020-06","endDate":"AUGUST 2020","summary":"Deployed Python software connected to AWS EC2 to automate carriers backlog management within Amazon supply chain in EU.","summary1":"","summary2":"","highlights":[{"name":"Python","x_icon":"fab fa-python"},{"name":"AWS EC2","x_icon":"fab fa-aws"},{"name":"Microsoft Power BI","x_icon":"fas fa-code"},{"name":"NumPy","x_icon":"fas fa-code"}],"index":3},{"company":"Kavida AI","position":"Machine Learning Engineer","website":"https://www.kavida.ai","startDate":"2020-03","endDate":"MAY 2020","image":"images/timeline/kavida.jpg","summary":"Implemented innovative Machine Learning methods for supply-chain resiliency during Covid crisis under supervision of Dr. Sumit Sinha","summary1":"","summary2":"","highlights":[{"name":"Python","x_icon":"fab fa-python"},{"name":"Multi-threading","x_icon":"fas fa-code"},{"name":"XGBoost","x_icon":"fas fa-code"},{"name":"NumPy","x_icon":"fas fa-code"}],"index":2},{"company":"University College London (UCL)","position":"Undergraduate Student","website":"https://www.ucl.ac.uk/engineering/ucl-engineering","image":"images/timeline/ucl.jpg","startDate":"2018-09","endDate":"None","summary":"Joined UCL School of Engineering as an Undergraduate student in Information Management.","summary1":"","summary2":"","highlights":[],"index":1}],"nb":[{"name":"Python","icon":"images/skills/python.png","use":"","size":2,"level":"Advanced"},{"name":"PyTorch","level":"Advanced","size":2,"icon":"images/skills/pytorch.png","use":""},{"name":"SciSpacy","level":"Advanced","size":2,"icon":"images/skills/scispacy.png","use":""},{"name":"Java","level":"Advanced","size":2,"icon":"images/skills/java.jpg","use":""},{"name":"TensorFlow","level":"Advanced","size":3,"icon":"images/skills/tensorflow.png","use":""},{"name":"PEFT","level":"Advanced","size":2,"icon":"images/skills/huggingface.png","use":""},{"name":"C++","level":"Advanced","size":2,"icon":"images/skills/c++.png","use":""},{"name":"Git","level":"Advanced","size":2,"icon":"images/skills/git.png","use":""},{"name":"JavaScript","level":"Intermediate","size":3,"icon":"images/skills/javascript.png","use":""},{"name":"Linux","level":"Intermediate","size":2,"icon":"images/skills/linux.png","use":""}, {"name":"AWS","level":"Intermediate","size":2,"icon":"images/skills/aws.png","use":""}, {"name":"vLLM","level":"Intermediate","size":2,"icon":"images/skills/vllm-color.png","use":""},{"name":"DeepSpeed","level":"Intermediate","size":2,"icon":"images/skills/deepspeed.png","use":""},{"name":"TRL","level":"Intermediate","size":2,"icon":"images/skills/trl.png","use":""},{"name":"Bash","level":"Intermediate","size":2,"icon":"images/skills/bash.png","use":""},{"name":"Weights & Biases","level":"Intermediate","size":2,"icon":"images/skills/weights_and_biases.png","use":""},{"name":"CUDA","level":"Intermediate","size":2,"icon":"images/skills/cuda.png","use":""}, {"name":"Django","level":"Intermediate","size":2,"icon":"images/skills/django.png","use":""},{"name":"Dash","level":"Intermediate","size":2,"icon":"images/skills/dash.png","use":""}, {"name":"SQL","level":"Intermediate","size":2,"icon":"images/skills/sql.png","use":""}, {"name":"Docker","level":"Intermediate","size":2,"icon":"images/skills/docker.png","use":""}, {"name":"SciPy","level":"Intermediate","size":2,"icon":"images/skills/scipy.png","use":""}],"N_":[],"q":[{"name":"Undirected Graphs","html_url":"https://github.com/thomaslemenestrel/undirected_graphs","description":"An implementation of ordinary and partial differential equations solvers using undirected graphs in C++.","language":"C++"},{"name":"SWE Projects","html_url":"https://github.com/thomaslemenestrel/swe_scientific_projects","description":"A collection of scientific projects in C++ and Python.","language":"Python", "language2":"C++"},{"name":"minGPT Birthplace","html_url":"https://github.com/thomaslemenestrel/minGPT_birthplace_prediction","description":"An implementation of minGPT with synthesized attention for birthplace prediction in PyTorch. ","language":"Python"},{"name":"Netflix Prize","html_url":"https://github.com/thomaslemenestrel/netflix_prize","description":"An implementation of pcLasso and Truncated SVD on the Netflix Prize dataset in Python.","language":"Python"}],"Z6":[{"name":"An intuitive comparison of Ridge and Lasso","html_url":"https://medium.com/data-science/lasso-and-ridge-regression-an-intuitive-comparison-3ee415487d18","description":"An intuitive comparison of Lasso and Ridge by diving into the mathematics of both algorithms and looking at the results on a regression problem.","image":"images/articles/lasso.png"}, {"name":"Sparse Matrices for Machine Learning","html_url":"https://medium.com/data-science/sparse-matrices-why-they-matter-for-machine-learning-and-data-science-55d704d936b2", "description":"An article that dives into the importance of sparse matrices, specifically in CSR and COO format, for Machine Learning problems by looking at Recommendation Systems.", "image":"images/articles/cube.jpeg"}, {"name":"An introduction to Markov Chains","html_url":"https://medium.com/data-science/a-gentle-introduction-to-markov-chains-by-modelling-dice-rolls-ed26a249dd0d", "description":"An article that introduces Markov chains by looking at their applications in different fields and a practical example modelling dice rolls.", "image":"images/articles/dices.jpeg"}, {"name":"Random Forest and Decision Trees","html_url":"https://medium.com/data-science/random-forest-and-decision-trees-by-hand-no-coding-a209f2bbb1c9", "description":"An article that looks at the mathematics behind Decision Trees and Random Forest and how to build those from scratch.", "image":"images/articles/tree.png"}],"pR":[]}'),
 
 					y = function(e) {
 						l(n, e);
@@ -166,7 +166,7 @@
 													text: "Experience",
 													href: "#experience"
 												}), (0, f.jsx)(g, {
-											text: "Research",
+											text: "Publications & Patents",
 											href: "#research"
 										}), (0, f.jsx)(g, {
 											text: "Projects",
@@ -820,7 +820,7 @@
 										spacing: 3,
 										justify: "center",
 										children: [h.nb[0], h.nb[1], h.nb[6]].concat(h.nb.filter((function(e) {
-											return !["Python", "PyTorch", "C++", "JavaScript", "Django", "Dash", "TensorFlow", "SciSpacy", "Docker", "Java", "SciPy", "SQL"].includes(e.name)
+										return !["Python", "PyTorch", "C++", "JavaScript", "Django", "Dash", "TensorFlow", "SciSpacy", "Java", "SciPy", "SQL"].includes(e.name)
 										}))).map((function(e) {
 											return(0, f.jsx)(Y, {
 												index: h.nb.indexOf(e),
@@ -1817,11 +1817,11 @@
 						"Stanford University": {
 							date: "2021",
 							endDate: "2024",
-							summary: "Enrolled in the M.S. in Computational and Mathematical Engineering program at Stanford."
+							summary: "Enrolled in the M.S. in Computational and Mathematical Engineering at Stanford."
 						},
 						"Cisco Research": {
 							date: "2022",
-							summary: "Integrated state-of-the-art NLP research into Cisco business products."
+							summary: "Integrated state-of-the-art LLM research into Cisco business products."
 						},
 						"University College London (UCL)": {
 							date: "2018",
@@ -2124,6 +2124,10 @@
 								marginBottom: "10px",
 								display: "flex"
 							},
+							media: {
+								height: 0,
+								paddingTop: "56.25%"
+							},
 							card: {
 								width: "100%",
 								height: "100%",
@@ -2164,18 +2168,7 @@
 					Ke = function(e) {
 						var t = e.repo,
 							n = e.language,
-							o = Je(),
-							a = r.useState(null),
-							i = a[0],
-							s = a[1];
-						r.useEffect((function() {
-							var e = t.html_url.replace("https://github.com/", "");
-							fetch("https://api.github.com/repos/".concat(e)).then((function(e) {
-								return e.ok ? e.json() : null
-							})).then((function(e) {
-								e && s(e.stargazers_count)
-							})).catch((function() {}))
-						}), [t.html_url]);
+							o = Je();
 						return(0, f.jsx)(G, {
 							xs: 12,
 							sm: 6,
@@ -2208,7 +2201,21 @@
 											children: [t.name, " "]
 										})
 									})
-								}), (0, f.jsx)("a", {
+								}), t.image ? (0, f.jsx)("a", {
+									href: t.html_url,
+									target: "_blank",
+									rel: "noopener noreferrer",
+									className: o.tittle,
+									style: {
+										textDecoration: "none",
+										color: "black"
+									},
+									children: (0, f.jsx)(fi, {
+										className: o.media,
+										image: t.image,
+										title: t.name
+									})
+								}) : null, (0, f.jsx)("a", {
 									href: t.html_url,
 									target: "_blank",
 									rel: "noopener noreferrer",
@@ -2250,22 +2257,6 @@
 											},
 											children: t.language2
 										})]
-									}) : null, null !== i ? (0, f.jsx)(r.Fragment, {
-										children: (0, f.jsx)("a", {
-											href: t.html_url,
-											target: "_blank",
-											rel: "noopener noreferrer",
-											style: {
-												textDecoration: "none",
-												marginRight: "10px",
-												color: "#551A8B"
-											},
-											children: (0, f.jsxs)("span", {
-												children: [(0, f.jsx)("i", {
-													className: "fa-solid fa-star"
-												}), " ", i]
-											})
-										})
 									}) : null, t.forks_count >= 0 ? (0, f.jsx)(r.Fragment, {
 										children: (0, f.jsx)("a", {
 											href: "".concat(t.html_url, "/fork"),
@@ -2304,18 +2295,25 @@
 									name: "Smiles2Dock",
 									html_url: "https://github.com/rivas-lab/Smiles2Dock",
 									description: "An open, large-scale multi-task dataset and benchmark for ML-based molecular docking, with more than 25 million protein-ligand binding scores.",
-									language: "Python"
+									language: "Python",
+									image: "images/projects/smiles2dock.png"
 								}, {
-									name: "ptlasso",
+									name: "Pretrained Lasso",
 									html_url: "https://github.com/thomaslemenestrel/ptlasso",
 									description: "An implementation of pre-trained Lasso models, enabling a model trained on broad data to be fine-tuned for a specific prediction task.",
-									language: "Python"
+									language: "Python",
+									image: "images/projects/ptlasso.png"
 								}, {
 									name: "BLAZE",
 									html_url: "https://github.com/cisco-open/BLAZE",
-									description: "A composable, open-source platform for assembling, benchmarking, and deploying NLP pipelines through reusable building blocks.",
-									language: "Python"
-								}, h.q[0]].map((function(e, t) {
+									description: "A composable, open-source platform for assembling, benchmarking, and deploying LLM pipelines through reusable building blocks.",
+									language: "Python",
+									image: "images/projects/blaze.jpeg"
+								}, Object.assign({}, h.q[0], {
+									name: "ODE/PDE Solvers",
+									description: "A C++ project of solvers for ordinary and partial differential equations using graph-based numerical methods for scientific computing applications.",
+									image: "images/projects/graphs.jpeg"
+								})].map((function(e, t) {
 									return(0, f.jsx)(Ke, {
 										repo: e,
 										language: et
@@ -2336,8 +2334,13 @@
 							className: "container",
 							children: [(0, f.jsx)("h1", {
 								className: "title",
-								children: "Research"
+								children: "Publications & Patents"
 							}), [{
+								name: "Smiles2Dock: a large-scale dataset for ML-based docking score prediction using AlphaFold structures",
+								url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UBbopPcAAAAJ&citation_for_view=UBbopPcAAAAJ:Y0pCki6q_DkC",
+								meta: "T. Le Menestrel, M. R. Cruz · NeurIPS 2025 AI for Science Workshop · 2025",
+								description: "Introduces a large-scale dataset for training and evaluating machine-learning models that predict molecular docking scores from AlphaFold protein structures."
+							}, {
 								name: "Pretraining and the lasso",
 								url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UBbopPcAAAAJ&citation_for_view=UBbopPcAAAAJ:qjMakFHDy7sC",
 								meta: "E. Craig, M. Pilanci, T. Le Menestrel, B. Narasimhan, M. A. Rivas, et al. · Journal of the Royal Statistical Society Series B: Statistical Methodology · 2026",
@@ -2347,11 +2350,6 @@
 								url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UBbopPcAAAAJ&citation_for_view=UBbopPcAAAAJ:W7OEmFMy1HYC",
 								meta: "T. Le Menestrel, E. Craig, R. Tibshirani, T. Hastie, M. Rivas · PLOS ONE 20(12), e0336861 · 2025",
 								description: "Applies pretraining and interaction modeling to build ancestry-specific disease-prediction models from UK Biobank multiomics data."
-							}, {
-								name: "Smiles2Dock: a large-scale dataset for ML-based docking score prediction using AlphaFold structures",
-								url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UBbopPcAAAAJ&citation_for_view=UBbopPcAAAAJ:Y0pCki6q_DkC",
-								meta: "T. Le Menestrel, M. R. Cruz · NeurIPS 2025 AI for Science Workshop · 2025",
-								description: "Introduces a large-scale dataset for training and evaluating machine-learning models that predict molecular docking scores from AlphaFold protein structures."
 							}, {
 								name: "Benchmarking modular natural language processing pipelines",
 								url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UBbopPcAAAAJ&citation_for_view=UBbopPcAAAAJ:zYLM7Y9cAGgC",
@@ -5680,6 +5678,9 @@
 						return(0, f.jsx)("section", {
 							className: "section github",
 							id: "github",
+							style: {
+								paddingBottom: "4rem"
+							},
 							children: (0, f.jsxs)("div", {
 								className: "container is-centered",
 								children: [(0, f.jsx)("h1", {
@@ -6222,7 +6223,7 @@
 									children: ["Built at ", (0, f.jsx)("i", {
 										className: "fas fa-moon"
 									}), " by", " ", (0, f.jsx)("a", {
-										href: "https://github.com/tlemenestrel",
+										href: "https://github.com/thomaslemenestrel",
 										className: "has-text-white",
 										children: (0, f.jsx)("strong", {
 											children: "Thomas Le Menestrel"
