@@ -1873,7 +1873,9 @@
 							}), (0, f.jsx)("div", {
 								className: "timeline-content"
 							})]
-						}), h.ZT.map((function(e) {
+						}), h.ZT.filter((function(e) {
+							return !["Kavida AI", "Microsoft", "Imagine Software"].includes(e.company)
+						})).map((function(e) {
 							return new Date(e.startDate).getFullYear()
 						})).filter((function(e, t, n) {
 							return n.indexOf(e) === t
@@ -1882,7 +1884,7 @@
 							return n.push((0, f.jsx)(Ue, {
 								year: e
 							}, t)), n.push(h.ZT.filter((function(t) {
-								return new Date(t.startDate).getFullYear() === e
+								return !["Kavida AI", "Microsoft", "Imagine Software"].includes(t.company) && new Date(t.startDate).getFullYear() === e
 							})).map((function(e, t) {
 								return(0, f.jsx)(Fe, {
 									image: e.image,
