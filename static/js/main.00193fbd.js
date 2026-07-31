@@ -288,7 +288,7 @@
 							id: "aboutMe",
 							style: {
 								backgroundImage: "linear-gradient(to right, #e66465, #9198e5)",
-								paddingBottom: "1rem"
+								paddingBottom: "1.5rem"
 							},
 							children: (0, f.jsxs)("div", {
 								className: "container has-text-centered",
@@ -1799,13 +1799,53 @@
 				};
 
 				function ze(e) {
-					return "None" === e.endDate ? (0, f.jsx)("p", {
-						className: "heading",
-						children: e.date
-					}) : (0, f.jsxs)("p", {
+					return e.endDate && "None" !== e.endDate ? (0, f.jsxs)("p", {
 						className: "heading",
 						children: [e.date, "-", e.endDate]
+					}) : (0, f.jsx)("p", {
+						className: "heading",
+						children: e.date
 					})
+				}
+
+				function careerDetails(e) {
+					var t = {
+						"Amazon": {
+							date: "2020",
+							summary: "Deployed carriers backlog automation software for Amazon EU supply chain."
+						},
+						"Stanford University": {
+							date: "2021",
+							endDate: "2024",
+							summary: "Enrolled in the M.S. in Computational and Mathematical Engineering program at Stanford."
+						},
+						"Cisco Research": {
+							date: "2022",
+							summary: "Integrated state-of-the-art NLP research into Cisco business products."
+						},
+						"University College London (UCL)": {
+							date: "2018",
+							endDate: "2021",
+							summary: "Joined UCL School of Engineering as an Information Management student."
+						},
+						"Stanford School of Medicine": {
+							date: "2022",
+							endDate: "2024",
+							summary: "Developed a transfer-learning pretraining framework for Lasso models."
+						},
+						"Qube Research & Technologies": {
+							date: "2024",
+							endDate: "PRESENT"
+						}
+					}[e.company];
+					return t || {
+						date: new Date(e.startDate).toLocaleString("en-UK", {
+							month: "long",
+							year: "numeric"
+						}),
+						endDate: e.endDate,
+						summary: e.summary
+					}
 				}
 				var Fe = function(e) {
 					return(0, f.jsxs)("div", {
@@ -1875,19 +1915,17 @@
 							}, t)), n.push(h.ZT.filter((function(t) {
 								return !["Kavida AI", "Microsoft", "Imagine Software"].includes(t.company) && new Date(t.startDate).getFullYear() === e
 							})).map((function(e, t) {
+								var n = careerDetails(e);
 								return(0, f.jsx)(Fe, {
 									image: e.image,
-									date: new Date(e.startDate).toLocaleString("en-UK", {
-										month: "long",
-										year: "numeric"
-									}),
+									date: n.date,
 									company: e.company,
-									summary: e.summary,
+									summary: n.summary || e.summary,
 									summary1: e.summary1,
 									summary2: e.summary2,
 									position: e.position,
 									website: e.website,
-									endDate: e.endDate,
+									endDate: n.endDate,
 									badge: e.highlights,
 									expIndex: e.index
 								}, t)
@@ -1900,7 +1938,7 @@
 							className: "section",
 							id: "experience",
 							style: {
-								paddingTop: "1.5rem",
+								paddingTop: "2rem",
 								paddingBottom: "1.5rem"
 							},
 							children: (0, f.jsxs)("div", {
@@ -2325,7 +2363,7 @@
 									children: [(0, f.jsx)("h2", {
 										className: "title is-5",
 										style: {
-											marginBottom: "0.5rem"
+											marginBottom: "0.75rem"
 										},
 										children: (0, f.jsx)("a", {
 											href: e.url,
@@ -5646,6 +5684,9 @@
 								className: "container is-centered",
 								children: [(0, f.jsx)("h1", {
 									className: "title",
+									style: {
+										marginBottom: "2rem"
+									},
 									children: "GitHub Contributions"
 								}), (0, f.jsx)(cr, {
 									username: "thomaslemenestrel",
@@ -5988,7 +6029,7 @@
 										}), (0, f.jsx)("br", {}), (0, f.jsx)("div", {
 											className: "hero-foot",
 											style: {
-												paddingBottom: "20px",
+												paddingBottom: "8px",
 												zIndex: "10"
 											},
 											children: (0, f.jsxs)("div", {
