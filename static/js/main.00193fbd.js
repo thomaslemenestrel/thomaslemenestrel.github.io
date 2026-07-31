@@ -188,7 +188,10 @@
 					v = n(9511);
 				var x = function() {
 					return(0, f.jsxs)("section", {
-						className: "hero is-dark is-fullheight has-bg-image",
+						className: "hero is-dark has-bg-image",
+						style: {
+							minHeight: "70vh"
+						},
 						children: [(0, f.jsx)("div", {
 							className: "hero-head",
 							children: (0, f.jsx)(y, {})
@@ -228,7 +231,7 @@
 								}), [{
 									network: "Google Scholar",
 									url: "https://scholar.google.com/citations?user=UBbopPcAAAAJ&hl=en",
-									x_icon: "fa-solid fa-google-scholar"
+									x_icon: "fa-brands fa-google-scholar"
 								}].concat(h.OT.eH.filter((function(e) {
 									return "Email" !== e.network
 								}))).map((function(e, t) {
@@ -5979,7 +5982,7 @@
 																}), [{
 																	network: "Google Scholar",
 																	url: "https://scholar.google.com/citations?user=UBbopPcAAAAJ&hl=en",
-																	x_icon: "fa-solid fa-google-scholar"
+																	x_icon: "fa-brands fa-google-scholar"
 																}].concat(h.OT.eH.filter((function(e) {
 																	return "Email" !== e.network
 																}))).map((function(e, t) {
