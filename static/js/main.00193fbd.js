@@ -188,11 +188,7 @@
 					v = n(9511);
 				var x = function() {
 					return(0, f.jsxs)("section", {
-						className: "hero is-dark has-bg-image",
-						style: {
-							minHeight: "80vh",
-							backgroundPosition: "center top"
-						},
+						className: "hero is-dark is-fullheight has-bg-image",
 						children: [(0, f.jsx)("div", {
 							className: "hero-head",
 							children: (0, f.jsx)(y, {})
@@ -291,7 +287,8 @@
 							className: "section",
 							id: "aboutMe",
 							style: {
-								backgroundImage: "linear-gradient(to right, #e66465, #9198e5)"
+								backgroundImage: "linear-gradient(to right, #e66465, #9198e5)",
+								paddingBottom: "1rem"
 							},
 							children: (0, f.jsxs)("div", {
 								className: "container has-text-centered",
@@ -1827,10 +1824,10 @@
 							className: "timeline-content",
 							children: [ze(e), (0, f.jsx)("h1", {
 								className: "title is-4",
+								style: {
+									marginBottom: "0.5rem"
+								},
 								children: e.company
-							}), (0, f.jsx)("p", {
-								className: "subtitle is-6",
-								children: e.position
 							}), (0, f.jsx)(Ie, {
 								summary: e.summary,
 								summary1: e.summary1,
@@ -1902,6 +1899,10 @@
 						return(0, f.jsx)("section", {
 							className: "section",
 							id: "experience",
+							style: {
+								paddingTop: "1.5rem",
+								paddingBottom: "1.5rem"
+							},
 							children: (0, f.jsxs)("div", {
 								className: "container",
 								children: [(0, f.jsx)("h1", {
@@ -2290,6 +2291,9 @@
 					return(0, f.jsx)("section", {
 						className: "section",
 						id: "research",
+						style: {
+							paddingTop: "1.5rem"
+						},
 						children: (0, f.jsxs)("div", {
 							className: "container",
 							children: [(0, f.jsx)("h1", {
@@ -2320,6 +2324,9 @@
 									className: "box",
 									children: [(0, f.jsx)("h2", {
 										className: "title is-5",
+										style: {
+											marginBottom: "0.5rem"
+										},
 										children: (0, f.jsx)("a", {
 											href: e.url,
 											target: "_blank",
@@ -5815,8 +5822,11 @@
 								spacing: 1,
 								justify: "center",
 								children: h.Z6.map((function(e, t) {
+									var n = 1 === t ? "A deep dive into the importance of sparse matrices, specifically in CSR and COO format, for machine-learning problems by looking at recommendation systems." : 2 === t ? "An introduction to Markov Chains by looking at their applications in different fields and a practical example modelling dice rolls." : 3 === t ? "A look at the mathematics behind Decision Trees and Random Forest and how to build those from scratch." : e.description;
 									return(0, f.jsx)(yi, {
-										paper: e
+										paper: Object.assign({}, e, {
+											description: n
+										})
 									}, t)
 								}))
 							})]
@@ -6153,7 +6163,7 @@
 				};
 				var ki = function() {
 					return(0, f.jsxs)("main", {
-						children: [(0, f.jsx)(w, {}), (0, f.jsx)(Ze, {}), (0, f.jsx)(researchSection, {}), (0, f.jsx)(tt, {}), (0, f.jsx)(vi, {}), (0, f.jsx)(X, {}), (0, f.jsx)(di, {}), (0, f.jsx)(wi, {}), (0, f.jsx)(xi, {})]
+						children: [(0, f.jsx)(w, {}), (0, f.jsx)(Ze, {}), (0, f.jsx)(researchSection, {}), (0, f.jsx)(tt, {}), (0, f.jsx)(vi, {}), (0, f.jsx)(X, {}), (0, f.jsx)(di, {}), (0, f.jsx)(xi, {})]
 					})
 				};
 				var Si = function() {
@@ -6162,7 +6172,7 @@
 							style: {
 								position: "relative",
 								overflow: "hidden",
-								padding: "1.5rem",
+								padding: "0.75rem 1.5rem",
 								backgroundImage: "linear-gradient(to right, #e66465, #9198e5)"
 							},
 							children: (0, f.jsxs)("div", {
@@ -6176,16 +6186,7 @@
 										children: (0, f.jsx)("strong", {
 											children: "Thomas Le Menestrel"
 										})
-									})]
-								}), (0, f.jsx)("p", {
-									children: (0, f.jsx)("img", {
-										width: "512",
-										height: "96",
-										src: "https://bulma.io/images/made-with-bulma--semiwhite.png",
-										className: "bulma-image",
-										alt: ""
-									})
-								})]
+									})]})]
 							})
 						})
 					},
