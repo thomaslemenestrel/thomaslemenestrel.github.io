@@ -166,14 +166,14 @@
 													text: "Experience",
 													href: "#experience"
 												}), (0, f.jsx)(g, {
-											text: "Publications & Patents",
-											href: "#research"
-										}), (0, f.jsx)(g, {
-											text: "Projects",
-											href: "#projects"
-										}), (0, f.jsx)(g, {
-											text: "Articles",
-											href: "#articles"
+										text: "Publications & Patents",
+										href: "#research"
+									}), (0, f.jsx)(g, {
+										text: "Articles",
+										href: "#articles"
+									}), (0, f.jsx)(g, {
+										text: "Projects",
+										href: "#projects"
 												}), (0, f.jsx)(g, {
 													text: "Skills",
 													href: "#skills"
@@ -2308,11 +2308,11 @@
 									html_url: "https://github.com/cisco-open/BLAZE",
 									description: "A composable, open-source platform for assembling, benchmarking, and deploying LLM pipelines through reusable building blocks.",
 									language: "Python",
-									image: "images/projects/blaze.jpeg"
+									image: "images/projects/blaze.jpeg?v=20260810"
 								}, Object.assign({}, h.q[0], {
 									name: "ODE/PDE Solvers",
 									description: "A C++ project of solvers for ordinary and partial differential equations using graph-based numerical methods for scientific computing applications.",
-									image: "images/projects/graphs.jpeg"
+									image: "images/projects/graphs.png"
 								})].map((function(e, t) {
 									return(0, f.jsx)(Ke, {
 										repo: e,
@@ -5797,7 +5797,7 @@
 						return(0, f.jsx)(G, {
 							xs: 12,
 							sm: 6,
-							lg: 3,
+							lg: 4,
 							className: n.root,
 							children: (0, f.jsxs)(L, {
 								className: n.card,
@@ -5863,8 +5863,13 @@
 								container: !0,
 								spacing: 1,
 								justify: "center",
-								children: h.Z6.map((function(e, t) {
-									var n = 1 === t ? "A deep dive into the importance of sparse matrices, specifically in CSR and COO format, for machine-learning problems by looking at recommendation systems." : 2 === t ? "An introduction to Markov Chains by looking at their applications in different fields and a practical example modelling dice rolls." : 3 === t ? "A look at the mathematics behind Decision Trees and Random Forest and how to build those from scratch." : e.description;
+								children: [{
+									name: "Beating frontier LLMs on financial benchmarks",
+									html_url: "https://thomaslemenestrel.substack.com/p/an-analysis-of-learning-to-replicate",
+									description: "An article on what Bridgewater’s AIA Labs and Thinking Machines reveal about expert data, fine-tuning, and verticals for LLMs",
+									image: "images/articles/substack_llm_finance.png"
+								}].concat(h.Z6).map((function(e, t) {
+									var n = "Sparse Matrices for Machine Learning" === e.name ? "A deep dive into the importance of sparse matrices, specifically in CSR and COO format, for machine-learning problems." : "An introduction to Markov Chains" === e.name ? "An introduction to Markov Chains by looking at their applications in different fields and a practical example modelling dice rolls." : "Random Forest and Decision Trees" === e.name ? "A look at the mathematics behind Decision Trees and Random Forest and how to build those from scratch." : e.description;
 									return(0, f.jsx)(yi, {
 										paper: Object.assign({}, e, {
 											description: n
@@ -6205,7 +6210,7 @@
 				};
 				var ki = function() {
 					return(0, f.jsxs)("main", {
-						children: [(0, f.jsx)(w, {}), (0, f.jsx)(Ze, {}), (0, f.jsx)(researchSection, {}), (0, f.jsx)(tt, {}), (0, f.jsx)(vi, {}), (0, f.jsx)(X, {}), (0, f.jsx)(di, {}), (0, f.jsx)(xi, {})]
+						children: [(0, f.jsx)(w, {}), (0, f.jsx)(Ze, {}), (0, f.jsx)(researchSection, {}), (0, f.jsx)(vi, {}), (0, f.jsx)(tt, {}), (0, f.jsx)(X, {}), (0, f.jsx)(di, {}), (0, f.jsx)(xi, {})]
 					})
 				};
 				var Si = function() {
