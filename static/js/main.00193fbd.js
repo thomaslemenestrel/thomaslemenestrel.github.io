@@ -5866,7 +5866,7 @@
 								children: [{
 									name: "Beating frontier LLMs on financial benchmarks",
 									html_url: "https://thomaslemenestrel.substack.com/p/an-analysis-of-learning-to-replicate",
-									description: "An article on what Bridgewater’s AIA Labs and Thinking Machines reveal about expert data, fine-tuning, and verticals for LLMs",
+									description: "An article from Bridgewater’s AIA Labs and Thinking Machines and what it reveals about expert data, fine-tuning, and verticals for LLMs",
 									image: "images/articles/substack_llm_finance.png"
 								}].concat(h.Z6).map((function(e, t) {
 									var n = "Sparse Matrices for Machine Learning" === e.name ? "A deep dive into the importance of sparse matrices, specifically in CSR and COO format, for machine-learning problems." : "An introduction to Markov Chains" === e.name ? "An introduction to Markov Chains by looking at their applications in different fields and a practical example modelling dice rolls." : "Random Forest and Decision Trees" === e.name ? "A look at the mathematics behind Decision Trees and Random Forest and how to build those from scratch." : e.description;
